@@ -3,7 +3,7 @@ import logging
 from aiohttp import web
 import aiohttp
 
-import common
+from . import common
 
 class LocalWunderServer:
     application: web.Application = None
