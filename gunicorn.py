@@ -1,3 +1,5 @@
+"""Used as the entry point for running via Gunicorn"""
+
 from pylocalwunder.common import *
 from pylocalwunder.localwunderserver import LocalWunderServer
 
